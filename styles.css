@@ -324,6 +324,23 @@ ul{
     }
 }
 
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+select{
+    border: 1px solid #f50057;
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+
+
+
 @media only screen and (max-width: 600px){
     .row{
         text-align: center;
